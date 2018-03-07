@@ -1,0 +1,12 @@
+button{
+    margin: 5px;
+}
+
+#displayGifs{
+    width: 70%;
+}
+
+.horizontal{
+display: inline-block;
+margin:10px;
+}
