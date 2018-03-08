@@ -21,7 +21,6 @@ $("#addTopic").on("click", function (event) {                           // adds 
 
 $(document).on("click", ".topicButtons", function () {                  // when a topic is selected this is called, it makes the ajax reques   
     var interest = $(this).attr("data-name");
-    var interest = $(this).attr("data-name");
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +    
     interest + "&api_key=dc6zaTOxFJmzC&limit=10";
 
