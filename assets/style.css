@@ -1,3 +1,6 @@
+body{
+    background-color:tomato;
+}
 button{
     margin: 5px;
 }
@@ -9,4 +12,12 @@ button{
 .horizontal{
 display: inline-block;
 margin:10px;
+}
+
+.newTopicForm{
+    margin: 20px;
+}
+
+#addTopic{
+    margin-left: 10px;
 }
